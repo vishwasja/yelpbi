@@ -1,0 +1,1 @@
+rvm --rvmrc --create ruby-1.9.3-p392@gemset

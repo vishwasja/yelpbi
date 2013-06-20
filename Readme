@@ -1,0 +1,31 @@
+Welcome!
+
+The application is basically a small analytical system where we show the comparison between reviews of Indian Restaurents in US.
+It displays a bar graph to compare between reviews of multiple restaurents.
+The reviews are shown on y-axis and the respective restaurent names on x-axis.
+The application uses d3.js(version 2 liabrary) for front end bar graph display which is a data-driven-document liabrary and has rails in the backend
+for api data manipulation purpose.
+
+Instructions for getting the application on board!
+
+The application is a Rails 3 application which would require rvm >= 1.9.
+The application has d3.v2.js( the d3 version2 liabrary preloaded in the javascripts.)
+
+For running the application,
+Extract the application folder,
+Set up environment for rails,
+
+In the terminal,
+
+> rvm use 1.9.3
+> cd Testapp
+> bundle install
+> rails s
+
+
+This would fire up the application on port 3000,
+Please open your browser and in the address bar enter address 'http://localhost:3000'
+
+And you should see a bar graph showing restaurent reviews comparison when the data is loaded from api.
+We could also use caching and other methods for faster fetching but currently it is not in the context of application.
+ ****** If the application fails to load the data that indeed would mean that the api calls have reached a maximum limit for the day.
