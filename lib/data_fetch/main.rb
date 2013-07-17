@@ -1,11 +1,13 @@
 require 'rest_client'
+require 'socket'
+
 
 
 module DataFetch
   module Main
     def self.get_restaurents
       begin
-        res = RestClient.get("http://api.yelp.com/business_review_search?term=indian%20restaurant&location=94087&ywsid=Xp6cQjvhIyOEVCm5WK0Ghw")
+        res = File.read("#{Rails.root}/public/restaurants.json")
         res = ActiveSupport::JSON.decode(res)
         return res
       rescue Exception => e

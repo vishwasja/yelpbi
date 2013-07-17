@@ -1,12 +1,12 @@
 Welcome - This is Cerebrate Inc's proprietary coding challenge. Re-use of this project for any commercial / non-commercial purposes requires explicit written consent from Cerebrate Inc.
 
+This application is a analytical system which simulates Yelp API & builds visualizations on top of Yelp.
 
+### ===================== ###
+YELP API SIMULATION
+### ===================== ###
 
-The application is basically a small analytical system where we show the comparison between reviews of Indian Restaurents in US.
-It displays a bar graph to compare between reviews of multiple restaurents.
-The reviews are shown on y-axis and the respective restaurent names on x-axis.
-The application uses d3.js(version 2 liabrary) for front end bar graph display which is a data-driven-document liabrary and has rails in the backend
-for api data manipulation purpose.
+Yelp API can be simulated by making a request to /restaurants.json
 
 Instructions for getting the application on board!
 
@@ -23,7 +23,6 @@ In the terminal,
 > cd Testapp
 > bundle install
 > rails s
-
 
 This would fire up the application on port 3000,
 Please open your browser and in the address bar enter address 'http://localhost:3000'
