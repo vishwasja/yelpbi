@@ -2,11 +2,14 @@ Welcome - This is Cerebrate Inc's proprietary coding challenge. Re-use of this p
 
 This application is a analytical system which simulates Yelp API & builds visualizations on top of Yelp.
 
-### ===================== ###
 YELP API SIMULATION
-### ===================== ###
-
+-------------------
 Yelp API can be simulated by making a request to /restaurants.json
+
+Restaurant Names & Number of Reviews
+------------------------------------
+You can get review counts and restaurant names by calling
+/call.json
 
 Instructions for getting the application on board!
 
