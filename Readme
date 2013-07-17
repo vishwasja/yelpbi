@@ -4,7 +4,7 @@ This application is a analytical system which simulates Yelp API & builds visual
 
 YELP API SIMULATION
 -------------------
-Yelp API can be simulated by making a request to /restaurants.json
+Yelp API can be simulated by making a request to /yelp_data.json
 
 Restaurant Names & Number of Reviews
 ------------------------------------
@@ -23,7 +23,7 @@ Set up environment for rails,
 In the terminal,
 
 > rvm use 1.9.3
-> cd Testapp
+> cd YelpBi
 > bundle install
 > rails s
 

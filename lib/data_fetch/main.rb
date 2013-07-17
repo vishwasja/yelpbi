@@ -7,7 +7,7 @@ module DataFetch
   module Main
     def self.get_restaurents
       begin
-        res = File.read("#{Rails.root}/public/restaurants.json")
+        res = File.read("#{Rails.root}/public/yelp_data.json")
         res = ActiveSupport::JSON.decode(res)
         return res
       rescue Exception => e
