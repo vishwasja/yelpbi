@@ -1,6 +1,7 @@
 Testapp::Application.routes.draw do
   root :to => "home#index"
   get "call" => "home#call_data", as: :get_data
+  resources 'restuarants'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
